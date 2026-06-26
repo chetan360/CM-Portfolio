@@ -1,14 +1,15 @@
 export default function Projects() {
   const projects = [
     {
-      title: "Wonderlust: Airbnb-Inspired Property Platform",
+      title: "The High-Throughput In-Memory Key-Value Store",
       description:
-        "Wonderlust is a clone of the Arbnb Your Home website, focusing on property listings with user accounts and reviews. This project uses EJS templating for server-side rendering.",
-      tech: ["MongoDB", "express.js", "Render", "node.js"],
+        "The Core System: Multiple client threads are trying to read, write, and update keys (strings, lists, or expires) at the same time. Where Concurrency/Synchronization Shines: * If two threads write to the exact same key simultaneously, your system will crash or corrupt without proper synchronization.",
+      tech: ["Java", "IntelliJ IDEA"],
       gradient: "from-blue-500 to-indigo-600",
       icon: "🏚️",
-      liveLink: "https://wonderlust-kzbk.onrender.com",
-      projectUrl: "https://github.com/chetan360/Wonderlust",
+      liveLink: "#",
+      projectUrl:
+        "https://github.com/chetan360/The-High-Throughput-In-Memory-Key-Value-Store",
     },
     {
       title: "Platformer-Game",
@@ -17,7 +18,7 @@ export default function Projects() {
       tech: ["Java", "JDK", "Eclipse", "Gimp"],
       gradient: "from-purple-500 to-pink-600",
       icon: "👾",
-      liveLink: "https://github.com/chetan360/Platformer-Game",
+      liveLink: "#",
       projectUrl: "https://github.com/chetan360/Platformer-Game",
     },
     {
@@ -34,22 +35,19 @@ export default function Projects() {
       ],
       gradient: "from-green-500 to-emerald-600",
       icon: "💁‍♂️",
-      liveLink:
-        "https://github.com/chetan360/MERN-Projects/tree/main/React/Help-Center-API/Frontend",
+      liveLink: "#",
       projectUrl:
         "https://github.com/chetan360/MERN-Projects/tree/main/React/Help-Center-API/Frontend",
     },
     {
-      title: "E-Commerse Website",
+      title: "Wonderlust: Airbnb-Inspired Property Platform",
       description:
-        "This is a my second mini project of learning MERN-Stack. This is the next step me to learn the some advance of my html, css and js. This a fully responsive ecommerce wesite.",
-      tech: ["html", "css", "javascript", "vscode"],
-      gradient: "from-orange-500 to-red-600",
-      icon: "🥻",
-      liveLink:
-        "https://github.com/chetan360/MERN-Projects/tree/main/Front-End%20Projects/E-Commerce%20Website",
-      projectUrl:
-        "https://github.com/chetan360/MERN-Projects/tree/main/Front-End%20Projects/E-Commerce%20Website",
+        "Wonderlust is a clone of the Arbnb Your Home website, focusing on property listings with user accounts and reviews. This project uses EJS templating for server-side rendering.",
+      tech: ["MongoDB", "express.js", "Render", "node.js"],
+      gradient: "from-blue-500 to-indigo-600",
+      icon: "🏚️",
+      liveLink: "https://wonderlust-kzbk.onrender.com",
+      projectUrl: "https://github.com/chetan360/Wonderlust",
     },
     {
       title: "Library-Management-System",
@@ -58,8 +56,7 @@ export default function Projects() {
       tech: ["C", "CLI", "VS Code", "Dev C++"],
       gradient: "from-cyan-500 to-blue-600",
       icon: "📚",
-      liveLink:
-        "https://github.com/chetan360/Library-Management-System-Using-C/tree/main/Library-Management-System-main",
+      liveLink: "#",
       projectUrl:
         "https://github.com/chetan360/Library-Management-System-Using-C/tree/main/Library-Management-System-main",
     },
